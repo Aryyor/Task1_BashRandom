@@ -11,6 +11,16 @@ with pre-built command line interface environment e.g. Command Prompt or Windows
 
 Text editor to save the code as a script.
 
+WRITE THE CODE:
+- The code is hereby attached as "random.txt". 
+- To run this code in Linux, simply copy and paste this code in the Terminal Window and press "ENTER" 
+
+On a Windows Command Prompt or Powershell: 
+- Download the attached "random.txt" file. 
+- Navigate to the current location of the downloaded file using the "cd" command: e.g. cd C:\Users\username\Downloads
+- Use the command at the commadn prompt: bash -i random.txt
+- The random numbers from 1 to 10 are generated each time the code is run.
+
 
 2. DESCRIPTION:
 To build this Batch Scripts, we can make use of the built-in random number generator in Bash $ echo $RANDOM
@@ -28,7 +38,5 @@ $ echo $(( $RANDOM % 10 + 1))
 
 4. LIMITATIONS/BUGS
 - The code uses an in-built random number generator called 'RANDOM'. RANDOM returns a non-uniform random output, therefore, the behaviour is random . For instance, doing arithmetic on random numbers can dramatically affect the randomness of the output. 
--
 - Any computer-generated sequences of "random" numbers are refered to as "pseudorandom". This is because true "randomness," insofar as it exists at all, can only be found in certain incompletely understood natural phenomena such as radioactive decay.
-- 
 - This Script cannot be used to generate encryption key, passwords or anything related to security.
